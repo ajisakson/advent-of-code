@@ -3,8 +3,7 @@ use std::io::BufReader;
 use std::io::prelude::*;
 
 fn main() {
-
-    let input_file = File::open("input")
+    let input_file = File::open("src/input")
         .expect("File not found");
     let buf_reader = BufReader::new(input_file);
 
